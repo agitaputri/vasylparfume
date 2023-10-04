@@ -20,3 +20,18 @@
 #17 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #18 {main}
 "} 
+[2023-10-04 13:12:01] local.ERROR: The "-m" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-m\" option does not exist. at /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Input/ArgvInput.php:208)
+[stacktrace]
+#0 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Input/ArgvInput.php(110): Symfony\\Component\\Console\\Input\\ArgvInput->addShortOption('m', NULL)
+#1 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Input/ArgvInput.php(87): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption('-m')
+#2 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('-m', true)
+#3 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#5 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#6 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Application.php(1081): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Application.php(320): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /Users/bintangtobing/Desktop/GitHub/intern-unpri/vasylparfume/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main}
+"} 

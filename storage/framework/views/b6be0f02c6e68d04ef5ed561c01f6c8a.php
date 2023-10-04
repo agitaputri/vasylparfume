@@ -19,7 +19,7 @@
         <!--menu-->
         <nav class="d-md-flex p-4">
             <div>
-                <h1>VASYL PARFUME</h1>
+                <h1><a href="/">VASYL PARFUMEaass</a></h1>
             </div>
             <div class="ms-auto my-auto">
                 <ul class="list-inline m-0">
